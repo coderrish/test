@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ -e $1 ]; then
-  echo "File $1 already exists!"
+if [ -e $AYUSH ]; then
+  echo "File $AYUSH already exists!"
 else
-  echo >> $1
+  echo >> $AYUSH
 fi
